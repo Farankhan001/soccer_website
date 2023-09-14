@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed table header</title>
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+      <link rel="stylesheet" href="assests/ptrank.css">
+      <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css">
+      
+  
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+        <a href="#" class="logo"><img src="assests/images/images/asss (1).png" alt=""> </a>
+
+        <nav class="navbar">
+            <a href="index.html" target="_blank" style="text-decoration: none;">Home</a>
+            <a href="gallery.html" target="_blank" style="text-decoration: none;">Gallery</a>
+            <a href="contact.html" class="links" style="text-decoration: none;"  target="_blank">Contact</a>
+            <a href="Results.html" class="links" style="text-decoration: none;"  target="_blank">Fixtures</a>
+            <a href="#" class="links" style="text-decoration: none;"  target="_blank">Top 10 Rankings</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fa-brands fa-facebook-f"></div>
+            <div class="fa-brands fa-twitter"></div>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="your email" class="box" required>
+            <input type="password" placeholder="your password" class="box" required>
+            <p>forget your password<a href="#">click here</a></p>
+            <p>don't have an account<a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </div>
+</header>
+<section class="Home" id="Home">
+    <div class="content">
+        <h1>ALIVAAND</h1>
+        <h2>KICKIN</h2>
+        <img src="assests/images/images/img-01.png" alt="">
+    </div>
+</section>
+    
+  <h1 class="heading">TOP 10 PLAYERS RANKING
+  
+  </h1>
+  <h5 class="se"><input type="text" id="myinput" name="myinput" placeholder="Search" class="iu"></h5>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0" id="myta">
+      <thead>
+        <tr>
+          <th>Players</th>
+          <th>Points</th>
+          <th>Scores</th>
+          <th>Rank</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" id="mytable" cellspacing="0" border="0">
+      <tbody id="jasp">
+        
+        
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section class="table">
+<h1 class="heading">TOP 10 TEAMS RANKING</h1>
+<h5 class="se"><input type="text" id="myinput" name="myinput" placeholder="Search" class="iu"></h5>
+  <div class="tbl-header2">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Team Name</th>
+          <th>Scores</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content" id="mkl">
+    <table cellpadding="0" id="mytable" cellspacing="0" border="0">
+      <tbody class="tbl">
+        
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section class="footer">
+  <div class="box-container">
+
+      <div class="box">
+          <a href="#" class="logo"><img src="assests/images/images/asss (1).png" alt=""> </a>
+          <p></p>
+          <div class="share">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>Site-Map</h3>
+          <a href="index.html" class="links" style="text-decoration: none;" target="_blank">Home</a>
+          <a href="gallery.html" class="links" style="text-decoration: none;"  target="_blank">Gallery</a>
+          <a href="contact.html" class="links" style="text-decoration: none;"  target="_blank">Contact</a>
+          <a href="Results.html" class="links" style="text-decoration: none;"  target="_blank">Fixtures</a>
+          <a href="#" class="links" style="text-decoration: none;"  target="_blank">Top 10 Rankings</a>
+      </div>
+      <div class="box">
+          <h3>Site-Map</h3>
+          <a href="index.html#about" class="links" style="text-decoration: none;"  target="_blank">About-Soccer</a>
+          <a href="feedback.html" class="links" style="text-decoration: none;"  target="_blank">Feedback</a>
+          <a href="Results.html#pastmatch" class="links" style="text-decoration: none;"  target="_blank">Match-Results</a>
+          <a href="Results.html#upcomingmatch" class="links" style="text-decoration: none;"  target="_blank">Upcoming-matches</a>
+          <a href="Results.html#tl" class="links" style="text-decoration: none;"  target="_blank">Team-Lineup</a>
+      </div>
+      <div class="box">
+       
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="" style="text-decoration: none;">
+          <input type="email" class="email" placeholder="your email" required pattern="[^@\s]+@[^@\s]+"
+              title="Invalid email address">
+          <input type="submit" value="subscribe" class="nbt">
+      </form>
+          <img src="Assests/images/payment img.png" class="payment-img" alt="">
+      </div>
+
+
+  </div>
+
+  <div class="conatiner-fluid">
+      <div class="row">
+          <div class="col">
+              <div class="credit">cerated by <span>cool as code</span> | all right reserved</div>
+          </div>
+
+      </div>
+</section>
+
+
+
+
+<script src="assests/jquery/jquery-3.6.3.min.js"></script>
+    <script src="assests/javascript/index.js"></script>
+   <script src="assests/bootstrap/js/bootstrap.min.js"></script>
+   
+</body>
+</html>
